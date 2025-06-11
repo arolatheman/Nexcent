@@ -6,10 +6,13 @@
         <title>Nexcent</title>
         <script src="https://kit.fontawesome.com/6b7ab7aaf7.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="./Styles/Main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <!-- Header Section -->
-        <header class="horizontal">
+        <header class="horizontal" id="header">
             <!-- brand logo -->
              <div>
                 <img src="./Images/brand logo.svg" alt="Nexcent logo">
@@ -17,12 +20,12 @@
              <!-- Navigation Bar -->
               <nav>
                 <ul class="horizontal">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Community</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Register Now <span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                    <li class="navitem"><a href="#">Home</a></li>
+                    <li class="navitem"><a href="#">Features</a></li>
+                    <li class="navitem"><a href="#">Community</a></li>
+                    <li class="navitem"><a href="#">Blog</a></li>
+                    <li class="navitem"><a href="#">Pricing</a></li>
+                    <li class="navitem" id="register"><a href="#">Register Now <span><i class="fa-solid fa-arrow-right" id="arrow"></i></span></a></li>
                 </ul>
               </nav>
         </header>
