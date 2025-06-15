@@ -17,9 +17,7 @@
 
 .navitem {
     list-style-type: none;
-    margin-right: 16.71px;
-    
-
+    margin-left: 16.71px;
 }
 .navitem a {
     font-family: "Inter", sans-serif;
@@ -37,9 +35,12 @@
     background-color: green;
     padding: 9.74px 22.27px;
     border-radius: 4px;
-
+    align-items: center;
+    justify-content: center;
+    gap: 5.57px;
 }
 
 #arrow {
-margin-left: 10px;
+ align-items: center;
+ justify-content: center;   
 }
